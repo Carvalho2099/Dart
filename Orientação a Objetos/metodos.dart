@@ -21,7 +21,7 @@ main(){
   //print("${dataAniversario.dia}/${dataAniversario.mes}/${dataAniversario.ano}");
   //print("${dataCompra.dia}/${dataCompra.mes}/${dataCompra.ano}");
   String d1 = dataAniversario.obterDataFormatada();
-  String d2 = dataCompra.obterDataFormatada();
+  //String d2 = dataCompra.obterDataFormatada();
 
   print("A data de aniversário é $d1");
   print("A data da compra é ${dataCompra.obterDataFormatada()}");
