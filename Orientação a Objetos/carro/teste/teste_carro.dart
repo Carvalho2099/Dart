@@ -12,5 +12,7 @@ main(){
   while(c1.velocidadeAtual > 0){
     print("A velocidade atual do carro é ${c1.frear()} km/h.");
   }
+
+  c1.velocidadeAtual = 500;
   print("O carro parou com a velocidade de ${c1.velocidadeAtual} km/h.");
 }
